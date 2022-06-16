@@ -29,6 +29,9 @@ const LoadingDiv = styled.div`
     position: fixed;
 `;
 
+/**
+ * @description 로딩 컴포넌트
+ */
 function Loading() {
     return (
         <LoadingBackground>
