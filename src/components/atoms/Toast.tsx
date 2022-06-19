@@ -6,7 +6,7 @@ import { Toaster, ToastPosition } from 'react-hot-toast';
  */
 function Toast({ position }: IToast) {
     return (
-        <Toaster  position={position} />
+        <Toaster position={position} />
     );
 }
 
@@ -17,6 +17,5 @@ interface IToast {
 Toast.defaultProps = {
     position: 'top-center'
 };
-
 
 export default Toast;
