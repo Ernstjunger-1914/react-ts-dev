@@ -9,11 +9,22 @@ const StyledInput = styled.input`
 /**
  * @description Input 컴포넌트
  */
-function Input() {
+function Input({ 
+    disabled, 
+    name, 
+    type, 
+    placeholder, 
+    maxLength, 
+    readOnly, 
+    value, 
+    innerReference, 
+    onChange, 
+    onKeyUP, 
+    onKeyDown, 
+    ...rest 
+}: InputProps) {
     return (
-        <div>
-            
-        </div>
+        <StyledInput />
     );
 }
 
@@ -42,7 +53,7 @@ interface InputProps extends StyledInputProps {
     readonly type: string;
     readonly placeholder?: string;
     readonly value: string;
-    readonly ReadOnly: boolean;
+    readonly readOnly: boolean;
     readonly innerReference?: ((instance: HTMLInputElement) => void) |
         React.MutableRefObject<HTMLInputElement> |
         null
