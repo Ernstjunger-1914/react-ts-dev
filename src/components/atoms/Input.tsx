@@ -187,4 +187,4 @@ Input.defaultProps = {
     paddingLeft: 22
 };
 
-export default Input;
+export default React.memo(Input);
