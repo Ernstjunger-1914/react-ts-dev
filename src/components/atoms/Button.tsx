@@ -1,4 +1,4 @@
-import React, { MouseEvent, ReactChild } from 'react';
+import React from 'react';
 import styled, { css } from 'styled-components';
 import { Colors } from 'utils/colors';
 
@@ -78,10 +78,10 @@ interface StyledButtonProps {
 };
 
 interface ButtonProps extends StyledButtonProps {
-    readonly children?: ReactChild;
+    readonly children?: React.ReactChild;
     readonly disable: boolean;
     readonly onClick?: (
-        e: MouseEvent<HTMLButtonElement, MouseEvent>
+        e: React.MouseEvent<HTMLButtonElement, MouseEvent>
     ) => void;
 };
 
