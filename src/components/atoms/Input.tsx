@@ -41,7 +41,7 @@ const StyledInput = styled.input<StyledInputProps>`
                 background-repeat: no-repeat;
             `;
         }
-    }}
+    }};
 
     font-size: ${(props) => props.fontSize}px;
     font-weight: ${(props) => props.fontWeight};

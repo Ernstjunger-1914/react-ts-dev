@@ -20,7 +20,7 @@ const StyledImage = styled.img<ImageProps>`
                     opacity: 0.6;
                 `;
             }
-        }}
+        }};
     }
 
     &:active {
@@ -30,7 +30,7 @@ const StyledImage = styled.img<ImageProps>`
                     opacity: 0.8;
                 `;
             }
-        }}
+        }};
     }
 `;
 

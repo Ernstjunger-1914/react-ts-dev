@@ -1,6 +1,6 @@
 import React, { Suspense } from 'react';
 import 'styles/scss/App.scss';
-import { Loading } from 'components/atoms';
+import { Loading } from 'components/molecules';
 import { Route, Switch } from 'react-router-dom';
 import { Mainpage, NotFoundPage } from 'components/pages';
 
