@@ -11,7 +11,7 @@ const Wrapper = styled.div`
 `;
 
 /**
- * @description 로그인 Form 컴포넌트
+ * @description LoginForm 컴포넌트
  */
 function LoginForm() {
     return (
