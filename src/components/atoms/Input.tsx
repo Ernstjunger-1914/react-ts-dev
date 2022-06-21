@@ -162,9 +162,9 @@ interface InputProps extends StyledInputProps {
     readonly innerReference?: ((instance: HTMLInputElement) => void) |
         React.MutableRefObject<HTMLInputElement> |
         null
-    readonly onChange?: (e: React.ChangeEvent<HTMLInputElement>) => void;
-    readonly onKeyUP?: (e: React.KeyboardEvent<HTMLInputElement>) => void;
-    readonly onKeyDown?: (e: React.KeyboardEvent<HTMLInputElement>) => void;
+    onChange?: (e: React.ChangeEvent<HTMLInputElement>) => void;
+    onKeyUP?: (e: React.KeyboardEvent<HTMLInputElement>) => void;
+    onKeyDown?: (e: React.KeyboardEvent<HTMLInputElement>) => void;
 };
 
 Input.defaultProps = {
