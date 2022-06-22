@@ -137,7 +137,7 @@ interface StyledInputProps {
     readonly borderColor: string;
     readonly borderRadius: number;
     readonly borderStyle: string;
-    readonly borderWidth: string;
+    readonly borderWidth: number;
     readonly customStyle?: string;
     readonly fontColor: string;
     readonly fontFamily: string;

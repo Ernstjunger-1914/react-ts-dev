@@ -79,7 +79,7 @@ interface StyledButtonProps {
 
 interface ButtonProps extends StyledButtonProps {
     readonly children?: React.ReactChild;
-    readonly disable: boolean;
+    readonly disabled: boolean;
     readonly onClick?: (
         e: React.MouseEvent<HTMLButtonElement, MouseEvent>
     ) => void;
