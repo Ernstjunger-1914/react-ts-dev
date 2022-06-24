@@ -13,6 +13,7 @@ export enum Colors {
     indianred = '#CD5C5C',
     crimson = '#DC143C',
     firebrick = '#B22222',
+    error = '#F44336',
     red = '#FF0000',
     darkred = '#8B0000',
     maroon = '#800000',
@@ -25,6 +26,7 @@ export enum Colors {
     darkorange = '#FF8C00',
 
     /* 노란색 계열 */
+    orangeyellow = '#FFC000',
     yellow = '#FFFF00',
     olive = '#808000',
 
