@@ -3,7 +3,7 @@ import moment from 'moment';
 import path from 'path';
 import winston from 'winston';
 
-enum Log_Level_E {
+const enum Log_Level_E {
     Error = 'error',
     Warning = 'warning',
     Info = 'Info',
