@@ -1,5 +1,5 @@
 import { Button, Input } from 'components/atoms';
-import Span from 'components/atoms/Span';
+import { Span } from 'components/atoms';
 import React, { useCallback } from 'react';
 import styled from 'styled-components';
 import { Colors } from 'utils/colors';

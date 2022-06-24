@@ -1,15 +1,17 @@
-import Toast from './Toast';
 import Button from './Button';
-import Input from './Input';
 import Image from './Image';
-import TextArea from './TextArea';
+import Input from './Input';
 import Link from './Link';
+import Span from './Span';
+import TextArea from './TextArea';
+import Toast from './Toast';
 
-export { 
-    Toast, 
-    Button, 
-    Input, 
+export {
+    Button,
     Image, 
-    TextArea, 
-    Link 
+    Input,
+    Link,
+    Span,
+    TextArea,
+    Toast
 };

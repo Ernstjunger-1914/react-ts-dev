@@ -1,6 +1,6 @@
-import toast from "react-hot-toast";
-import { MdClose, MdNotificationsNone, MdWarning, MdDone } from "react-icons/md";
-import { Colors } from "./colors";
+import toast from 'react-hot-toast';
+import { MdClose, MdNotificationsNone, MdWarning, MdDone } from 'react-icons/md';
+import { Colors } from './colors';
 
 class Toast {
     static error(message: string, icon = `${MdClose}`) {
