@@ -1,5 +1,8 @@
 import React from 'react';
 
+/**
+ * @description 404 에러 페이지
+ */
 function NotFoundPage() {
     return (
         <div>

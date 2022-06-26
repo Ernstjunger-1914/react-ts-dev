@@ -1,9 +1,9 @@
 import React from 'react';
 
 /**
- * @description 메인 페이지
+ * @description 회원가입 페이지
  */
-function Mainpage() {
+function RegisterPage() {
     return (
         <div>
             
@@ -11,4 +11,4 @@ function Mainpage() {
     );
 }
 
-export default Mainpage;
+export default RegisterPage;
