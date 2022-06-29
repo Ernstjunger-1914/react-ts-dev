@@ -7,7 +7,7 @@ import { Mainpage, NotFoundPage } from 'components/pages';
 function App() {
   return (
     <>
-    <Suspense fallback={<Loading />}>
+      <Suspense fallback={<Loading />}>
         <Switch>
           <Route exact path='/' component={Mainpage} />
           <Route component={NotFoundPage} />
