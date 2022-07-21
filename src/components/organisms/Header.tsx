@@ -1,9 +1,9 @@
 import React from 'react';
 
 /**
- * @description RegisterForm 컴포넌트
+ * @description Header 컴포넌트
  */
-function RegisterForm() {
+function Header() {
     return (
         <div>
             
@@ -11,4 +11,4 @@ function RegisterForm() {
     );
 }
 
-export default RegisterForm;
+export default Header;
