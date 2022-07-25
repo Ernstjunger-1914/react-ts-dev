@@ -8,6 +8,7 @@ const StyledLink = styled(ReactRouterLink)`
     color: ${Colors.black};
     display: flex;
     text-decoration: none;
+    padding: 0 1rem;
     height: 100%;
     cursor: pointer;
 

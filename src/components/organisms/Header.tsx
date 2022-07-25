@@ -32,6 +32,7 @@ function Header() {
             <Link path='/'>SSD</Link>
             <MenuDiv>
                 <Link path='/'>Home</Link>
+                <Link path='/about'>About</Link>
             </MenuDiv>
         </StyledHeader>
     );
