@@ -1,4 +1,4 @@
-import { Link } from 'components/atoms';
+import { Button, Link } from 'components/atoms';
 import React from 'react';
 import styled from 'styled-components';
 import { Colors } from 'utils/colors';
@@ -33,6 +33,12 @@ function Header() {
             <MenuDiv>
                 <Link path='/'>Home</Link>
                 <Link path='/about'>About</Link>
+                <Button
+                    backgroundColor={Colors.white}
+                    children={"로그인"}
+                    fontColor={Colors.black}
+                    width={5}
+                />
             </MenuDiv>
         </StyledHeader>
     );
