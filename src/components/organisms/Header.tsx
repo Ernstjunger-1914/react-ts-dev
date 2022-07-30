@@ -1,7 +1,8 @@
-import { Button, Link } from 'components/atoms';
+import { Button, Image, Link } from 'components/atoms';
 import React from 'react';
 import styled from 'styled-components';
 import { Colors } from 'utils/colors';
+import logo from 'images/logo.svg';
 
 const StyledHeader = styled.header`
     background: ${Colors.white};
@@ -29,7 +30,9 @@ const MenuDiv = styled.div`
 function Header() {
     return (
         <StyledHeader>
-            <Link path='/'>SSD</Link>
+            <Link path='/'>
+                <Image src={logo} alt="logo" width={100} height={250} />
+            </Link>
             <MenuDiv>
                 <Link path='/'>Home</Link>
                 <Link path='/about'>About</Link>

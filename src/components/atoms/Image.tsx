@@ -61,8 +61,8 @@ interface ImageProps extends StyledImageProps {
 };
 
 Image.defaultProps = {
-    width: 2,
-    height: 5
+    width: 20,
+    height: 50
 };
 
 export default Image;
