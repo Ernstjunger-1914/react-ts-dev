@@ -3,6 +3,7 @@ import React from 'react';
 import styled from 'styled-components';
 import { Colors } from 'utils/colors';
 import logo from 'images/logo.svg';
+import { useHistory } from 'react-router-dom';
 
 const StyledHeader = styled.header`
     background: ${Colors.white};
@@ -28,6 +29,13 @@ const MenuDiv = styled.div`
  * @description Header 컴포넌트
  */
 function Header() {
+    let history = useHistory();
+
+    const changeToLoginRoute = () => {
+        let path = `/login`;
+        history.push(path);
+    }
+
     return (
         <StyledHeader>
             <Link path='/'>
@@ -41,6 +49,7 @@ function Header() {
                 children={"로그인"}
                 fontColor={Colors.black}
                 width={5}
+                onClick={changeToLoginRoute}
             />
         </StyledHeader>
     );
