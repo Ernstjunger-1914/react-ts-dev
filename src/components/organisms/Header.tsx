@@ -36,13 +36,12 @@ function Header() {
             <MenuDiv>
                 <Link path='/'>Home</Link>
                 <Link path='/about'>About</Link>
-                <Button
-                    backgroundColor={Colors.white}
-                    children={"로그인"}
-                    fontColor={Colors.black}
-                    width={5}
-                />
             </MenuDiv>
+            <Button
+                children={"로그인"}
+                fontColor={Colors.black}
+                width={5}
+            />
         </StyledHeader>
     );
 }
