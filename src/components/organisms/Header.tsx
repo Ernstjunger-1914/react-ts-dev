@@ -1,4 +1,4 @@
-import { Button, Image, Link } from 'components/atoms';
+import { Button, Image, Link, Span } from 'components/atoms';
 import React from 'react';
 import styled from 'styled-components';
 import { Colors } from 'utils/colors';
@@ -46,11 +46,17 @@ function Header() {
                 <Link path='/about'>About</Link>
             </MenuDiv>
             <Button
-                children={"로그인"}
                 fontColor={Colors.black}
                 width={5}
                 onClick={changeToLoginRoute}
-            />
+            >
+                <Span
+                    fontColor={Colors.black}
+                    fontSize={14}
+                >
+                    로그인
+                </Span>
+            </Button>
         </StyledHeader>
     );
 }

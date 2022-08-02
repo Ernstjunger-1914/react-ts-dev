@@ -17,8 +17,8 @@ function App() {
         <Header />
         <Switch>
           <Route exact path='/' component={Mainpage} />
-          <Route path='/login' component={LoginPage} />
           <Route path='/about' component={AboutPage} />
+          <Route path='/login' component={LoginPage} />
           <Route component={NotFoundPage} />
         </Switch>
       </Suspense>
