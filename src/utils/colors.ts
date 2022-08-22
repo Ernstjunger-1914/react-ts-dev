@@ -68,9 +68,11 @@ export enum Colors {
     /* 회색 계열 */
     gainsboro = '#DCDCDC',
     lightgray = '#D3D3D3',
+    lightgray2 = '#D4D4D4',
     silver = '#C0C0C0',
     darkgray = '#A9A9A9',
     gray = '#808080',
+    gray2 = '#7777777',
     lightslategray = '#778899',
     slategray = '#708090',
     darkslategray  = '2F4F4F',

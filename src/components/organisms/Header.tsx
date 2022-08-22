@@ -1,18 +1,33 @@
-import { Button, Image, Link, Span } from 'components/atoms';
+import { Button, Link, Span } from 'components/atoms';
 import React from 'react';
 import styled from 'styled-components';
 import { Colors } from 'utils/colors';
-import logo from 'images/logo.svg';
 import { useHistory } from 'react-router-dom';
 
 const StyledHeader = styled.header`
-    background: ${Colors.white};
-    height: 80px;
+    background: ${Colors.snow};
+    height: 50px;
+    line-height: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0.5rem calc((100vw - 1000px) / 2);
     z-index: 10;
+    border-top: 0px solid ${Colors.lightgray2};
+    border-right: 0px solid ${Colors.lightgray2};
+    border-left: 0px solid ${Colors.lightgray2};
+    border-bottom: 1px solid ${Colors.lightgray2};
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 10px 0px;
+`;
+
+const LogoDiv = styled.div`
+    padding: 10px 20px 10px 20px;
+    font-family: Helvetica, arial, freesans, clean, sans-serif;
+    text-decoration: none solid rgb(119, 119, 119);
+    height: 25px;
+    float: left;
+    color: ${Colors.gray2};
+	font-size: 20px;
 `;
 
 const MenuDiv = styled.div`
@@ -38,9 +53,14 @@ function Header() {
 
     return (
         <StyledHeader>
-            <Link path='/'>
-                <Image src={logo} alt="logo" width={100} height={250} />
-            </Link>
+            <LogoDiv>
+                <Link path='/'>
+                    <Span
+                        fontFamily='Helvetica'
+                        fontColor={Colors.gray2}
+                    >SSD</Span>
+                </Link>
+            </LogoDiv>
             <MenuDiv>
                 <Link path='/'>Home</Link>
                 <Link path='/about'>About</Link>
