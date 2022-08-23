@@ -7,7 +7,6 @@ const StyledLink = styled(ReactRouterLink)`
     align-items: center;
     color: ${Colors.black};
     display: flex;
-    font-family: Helvetica, Arial, sans-serif;
     text-decoration: none;
     padding: 0 1rem;
     height: 100%;

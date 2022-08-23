@@ -5,13 +5,14 @@ import { Colors } from 'utils/colors';
 import { useHistory } from 'react-router-dom';
 
 const StyledHeader = styled.header`
+    align-items: center;
+    display: flex;
+    padding: 0.5rem calc((100vw - 1000px) / 2);
+    justify-content: space-between;
     background: ${Colors.snow};
     height: 50px;
-    line-height: 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0.5rem calc((100vw - 1000px) / 2);
+    line-height: 25px;
+    font-family: Helvetica, arial, freesans, clean, sans-serif;
     z-index: 10;
     border-top: 0px solid ${Colors.lightgray2};
     border-right: 0px solid ${Colors.lightgray2};
@@ -22,7 +23,6 @@ const StyledHeader = styled.header`
 
 const LogoDiv = styled.div`
     padding: 10px 20px 10px 20px;
-    font-family: Helvetica, arial, freesans, clean, sans-serif;
     text-decoration: none solid rgb(119, 119, 119);
     height: 25px;
     float: left;
