@@ -22,7 +22,6 @@
     "@types/react-dom": "^18.0.0",
     "eslint": "^8.17.0",
     "firebase": "^9.8.3",
-    "mkdirp": "^1.0.2",
     "moment": "^2.29.3",
     "node-sass": "^7.0.1",
     "polished": "^4.2.2",
@@ -63,7 +62,6 @@
     ]
   },
   "devDependencies": {
-    "@types/mkdirp": "^1.0.2",
     "@types/react-router-dom": "^5.3.3",
     "@types/styled-components": "^5.1.25"
   }
