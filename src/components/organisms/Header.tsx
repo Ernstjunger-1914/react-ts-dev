@@ -6,19 +6,20 @@ import { useHistory } from 'react-router-dom';
 
 const StyledHeader = styled.header`
     align-items: center;
-    display: flex;
-    padding: 0.5rem calc((100vw - 1000px) / 2);
-    justify-content: space-between;
     background: ${Colors.snow};
-    height: 50px;
-    line-height: 25px;
-    font-family: Helvetica, arial, freesans, clean, sans-serif;
-    z-index: 10;
     border-top: 0px solid ${Colors.lightgray2};
     border-right: 0px solid ${Colors.lightgray2};
     border-left: 0px solid ${Colors.lightgray2};
     border-bottom: 1px solid ${Colors.lightgray2};
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 10px 0px;
+//    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 10px 0px;
+    box-shadow: rgba(50, 50, 93, 0.23) 0px 30px 30px -20px;
+    display: flex;
+    font-family: Helvetica, arial, freesans, clean, sans-serif;
+    height: 50px;
+    justify-content: space-between;
+    line-height: 25px;
+    padding: 0.5rem calc((100vw - 1000px) / 2);
+    z-index: 10;
 `;
 
 const LogoDiv = styled.div`
