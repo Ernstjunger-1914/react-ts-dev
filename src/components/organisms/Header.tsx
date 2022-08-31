@@ -7,10 +7,6 @@ import { useHistory } from 'react-router-dom';
 const StyledHeader = styled.header`
     align-items: center;
     background: ${Colors.snow};
-    border-top: 0px solid ${Colors.lightgray2};
-    border-right: 0px solid ${Colors.lightgray2};
-    border-left: 0px solid ${Colors.lightgray2};
-    border-bottom: 1px solid ${Colors.lightgray2};
 //    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 10px 0px;
     box-shadow: rgba(50, 50, 93, 0.23) 0px 30px 30px -20px;
     display: flex;
