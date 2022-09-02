@@ -1,7 +1,6 @@
 import { Button, Input, Span } from 'components/atoms';
 import React from 'react';
 import styled from 'styled-components';
-import { Colors } from 'utils/colors';
 
 const StyledWrapper = styled.div`
     align-items: center;
